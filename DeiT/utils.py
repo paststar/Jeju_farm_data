@@ -75,7 +75,7 @@ def evaluate(transformer, loader1, loader2,epoch,best_acc, save_dir, _print, wri
             total += tgt_labels.size(0)
 
     eval_acc = (correct / total) * 100
-    _print('(eval) target accuracy: {:.2f}% eval time: {:.2f}s'.format(eval_acc, time.time() - start))
+    _print('(eval) accuracy: {:.2f}% eval time: {:.2f}s'.format(eval_acc, time.time() - start))
 
     # if eval_acc > best_acc:
     #     best_acc = eval_acc
@@ -89,15 +89,15 @@ def evaluate(transformer, loader1, loader2,epoch,best_acc, save_dir, _print, wri
         torch.save(transformer.state_dict(), save_dir + '/' + 'best_transformer.pt')
 
     _print('best accuracy: {:.2f} % '.format(best_acc))
-    writer.add_scalar('eval/target acc', eval_acc,epoch)
+    writer.add_scalar('eval/acc', eval_acc,epoch)
 
     return best_acc
 
-
-def get_pseudo_label(model, data):
-    model.eval()
-    with torch.no_grad():
-        tgt_preds = model(data)
-        pred = tgt_preds.argmax(dim=1)
-        return pred
+#
+# def get_pseudo_label(model, data):
+#     model.eval()
+#     with torch.no_grad():
+#         tgt_preds = model(data)
+#         pred = tgt_preds.argmax(dim=1)
+#         return pred
 

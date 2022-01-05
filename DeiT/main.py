@@ -22,7 +22,7 @@ parser = argparse.ArgumentParser(description="")
 # amazon, webcam, dslr
 #parser.add_argument('-source', help='source', type=str, default='amazon')
 #parser.add_argument('-target', help='target', type=str, default='webcam')
-parser.add_argument('-experiment_name', help='experiment_name', type=str, default='DeiT_S_finetuning')
+parser.add_argument('-experiment_name', help='experiment_name', type=str, default='resnet50_finetuning')
 
 parser.add_argument('-workers', default=4, type=int, help='dataloader workers')
 parser.add_argument('-gpu', help='gpu number', type=str, default='0')
@@ -84,7 +84,9 @@ def main():
     rgb_valid_loader = torchdata.DataLoader(rgb_valid_dataset, batch_size=args.batch_size, shuffle=True, num_workers=args.workers, pin_memory=True, drop_last=False)
 
     lr, l2_decay, momentum, nesterov = args.lr, args.l2_decay, args.momentum, args.nesterov
-    transformer = deit_small_distilled_patch16_224(pretrained=True, num_classes=10).cuda()
+
+    #transformer = deit_small_distilled_patch16_224(pretrained=True, num_classes=10).cuda()
+    transformer = resnet50(pretrained=True, num_classes=10).cuda()
 
     optimizer = optim.SGD(transformer.parameters(), lr=lr, momentum=momentum, weight_decay=l2_decay, nesterov=nesterov)
 
@@ -101,6 +103,7 @@ def main():
                     epoch,_print,writer)
         best_acc = utils.evaluate(transformer, snap_valid_loader, rgb_valid_loader, epoch,best_acc,save_dir,_print,writer)
         writer.flush()
+
     writer.close()
 
 if __name__ == "__main__":

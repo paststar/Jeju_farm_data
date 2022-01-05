@@ -1,4 +1,4 @@
 #from .ViT import *
 from .pretrained_DeiT import *
-#from .Domain_Transformer import *
+from .resnet import *
 #from .DANN import *

@@ -5,7 +5,7 @@ import torch.nn as nn
 from itertools import cycle
 #from utils import save_model
 #from utils import visualize
-from utils import set_model_mode,get_pseudo_label
+#from utils import set_model_mode,get_pseudo_label
 import time
 
 def train_transformer(args,transformer, train_loader1, train_loader2, optimizer, loss ,epoch, _print, writer):
