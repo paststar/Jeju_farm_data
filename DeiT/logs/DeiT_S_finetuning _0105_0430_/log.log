@@ -1,0 +1,1212 @@
+04:30:59 ############### experiments setting ###############
+04:30:59 {'experiment_name': 'DeiT_S_finetuning', 'workers': 4, 'gpu': '0', 'epochs': 200, 'batch_size': 4, 'lr': 0.01, 'l2_decay': 0.0001, 'momentum': 0.9, 'nesterov': False}
+04:30:59 ###################################################
+04:31:01 
+### epoch : 0 ###
+04:32:14 (train) loss1 : 1.0834 loss2 : 0.3787
+04:32:14 (train) accuracy1 : 84.14% accuracy2 : 95.70% train time: 73.02s
+04:32:19 (eval) target accuracy: 96.07% eval time: 4.36s
+04:32:19 model is saved at 0 epochs
+04:32:19 best accuracy: 96.07 % 
+04:32:19 
+### epoch : 1 ###
+04:33:33 (train) loss1 : 0.2657 loss2 : 0.1534
+04:33:33 (train) accuracy1 : 96.25% accuracy2 : 98.39% train time: 73.68s
+04:33:38 (eval) target accuracy: 98.73% eval time: 4.32s
+04:33:38 model is saved at 1 epochs
+04:33:38 best accuracy: 98.73 % 
+04:33:38 
+### epoch : 2 ###
+04:34:53 (train) loss1 : 0.1366 loss2 : 0.0823
+04:34:53 (train) accuracy1 : 97.91% accuracy2 : 99.01% train time: 75.17s
+04:34:58 (eval) target accuracy: 98.90% eval time: 4.29s
+04:34:58 model is saved at 2 epochs
+04:34:58 best accuracy: 98.90 % 
+04:34:58 
+### epoch : 3 ###
+04:36:12 (train) loss1 : 0.1312 loss2 : 0.0652
+04:36:12 (train) accuracy1 : 98.26% accuracy2 : 99.24% train time: 73.45s
+04:36:17 (eval) target accuracy: 99.59% eval time: 4.33s
+04:36:17 model is saved at 3 epochs
+04:36:17 best accuracy: 99.59 % 
+04:36:17 
+### epoch : 4 ###
+04:37:32 (train) loss1 : 0.0619 loss2 : 0.0470
+04:37:32 (train) accuracy1 : 99.20% accuracy2 : 99.45% train time: 74.63s
+04:37:37 (eval) target accuracy: 99.47% eval time: 4.28s
+04:37:37 best accuracy: 99.59 % 
+04:37:37 
+### epoch : 5 ###
+04:38:50 (train) loss1 : 0.0738 loss2 : 0.0454
+04:38:50 (train) accuracy1 : 99.13% accuracy2 : 99.45% train time: 73.08s
+04:38:55 (eval) target accuracy: 99.22% eval time: 4.70s
+04:38:55 best accuracy: 99.59 % 
+04:38:55 
+### epoch : 6 ###
+04:40:08 (train) loss1 : 0.0507 loss2 : 0.0468
+04:40:08 (train) accuracy1 : 99.33% accuracy2 : 99.51% train time: 73.24s
+04:40:13 (eval) target accuracy: 99.39% eval time: 4.62s
+04:40:13 best accuracy: 99.59 % 
+04:40:13 
+### epoch : 7 ###
+04:41:29 (train) loss1 : 0.0458 loss2 : 0.0365
+04:41:29 (train) accuracy1 : 99.29% accuracy2 : 99.52% train time: 76.09s
+04:41:34 (eval) target accuracy: 99.59% eval time: 4.63s
+04:41:34 best accuracy: 99.59 % 
+04:41:34 
+### epoch : 8 ###
+04:42:50 (train) loss1 : 0.0637 loss2 : 0.0358
+04:42:50 (train) accuracy1 : 99.23% accuracy2 : 99.55% train time: 75.29s
+04:42:55 (eval) target accuracy: 99.43% eval time: 4.60s
+04:42:55 best accuracy: 99.59 % 
+04:42:55 
+### epoch : 9 ###
+04:44:08 (train) loss1 : 0.0228 loss2 : 0.0398
+04:44:08 (train) accuracy1 : 99.69% accuracy2 : 99.56% train time: 73.35s
+04:44:13 (eval) target accuracy: 99.55% eval time: 4.65s
+04:44:13 best accuracy: 99.59 % 
+04:44:13 
+### epoch : 10 ###
+04:45:26 (train) loss1 : 0.0535 loss2 : 0.0311
+04:45:26 (train) accuracy1 : 99.35% accuracy2 : 99.53% train time: 72.75s
+04:45:31 (eval) target accuracy: 99.59% eval time: 4.69s
+04:45:31 best accuracy: 99.59 % 
+04:45:31 
+### epoch : 11 ###
+04:46:44 (train) loss1 : 0.0114 loss2 : 0.0183
+04:46:44 (train) accuracy1 : 99.87% accuracy2 : 99.74% train time: 73.20s
+04:46:49 (eval) target accuracy: 99.63% eval time: 4.64s
+04:46:49 model is saved at 11 epochs
+04:46:49 best accuracy: 99.63 % 
+04:46:49 
+### epoch : 12 ###
+04:48:03 (train) loss1 : 0.0903 loss2 : 0.0212
+04:48:03 (train) accuracy1 : 98.87% accuracy2 : 99.75% train time: 73.17s
+04:48:08 (eval) target accuracy: 98.69% eval time: 4.61s
+04:48:08 best accuracy: 99.63 % 
+04:48:08 
+### epoch : 13 ###
+04:49:21 (train) loss1 : 0.0271 loss2 : 0.0226
+04:49:21 (train) accuracy1 : 99.65% accuracy2 : 99.75% train time: 73.64s
+04:49:26 (eval) target accuracy: 99.71% eval time: 4.65s
+04:49:26 model is saved at 13 epochs
+04:49:27 best accuracy: 99.71 % 
+04:49:27 
+### epoch : 14 ###
+04:50:41 (train) loss1 : 0.0463 loss2 : 0.0344
+04:50:41 (train) accuracy1 : 99.49% accuracy2 : 99.51% train time: 74.52s
+04:50:46 (eval) target accuracy: 99.63% eval time: 4.42s
+04:50:46 best accuracy: 99.71 % 
+04:50:46 
+### epoch : 15 ###
+04:51:59 (train) loss1 : 0.0243 loss2 : 0.0124
+04:51:59 (train) accuracy1 : 99.72% accuracy2 : 99.84% train time: 72.70s
+04:52:04 (eval) target accuracy: 99.67% eval time: 4.31s
+04:52:04 best accuracy: 99.71 % 
+04:52:04 
+### epoch : 16 ###
+04:53:19 (train) loss1 : 0.0269 loss2 : 0.0208
+04:53:19 (train) accuracy1 : 99.67% accuracy2 : 99.77% train time: 74.64s
+04:53:24 (eval) target accuracy: 99.75% eval time: 4.36s
+04:53:24 model is saved at 16 epochs
+04:53:24 best accuracy: 99.75 % 
+04:53:24 
+### epoch : 17 ###
+04:54:38 (train) loss1 : 0.0157 loss2 : 0.0010
+04:54:38 (train) accuracy1 : 99.78% accuracy2 : 100.00% train time: 74.12s
+04:54:43 (eval) target accuracy: 99.71% eval time: 4.66s
+04:54:43 best accuracy: 99.75 % 
+04:54:43 
+### epoch : 18 ###
+04:55:58 (train) loss1 : 0.0446 loss2 : 0.0279
+04:55:58 (train) accuracy1 : 99.49% accuracy2 : 99.71% train time: 74.42s
+04:56:03 (eval) target accuracy: 99.75% eval time: 4.57s
+04:56:03 best accuracy: 99.75 % 
+04:56:03 
+### epoch : 19 ###
+04:57:17 (train) loss1 : 0.0369 loss2 : 0.0232
+04:57:17 (train) accuracy1 : 99.61% accuracy2 : 99.74% train time: 74.47s
+04:57:22 (eval) target accuracy: 99.71% eval time: 4.31s
+04:57:22 best accuracy: 99.75 % 
+04:57:22 
+### epoch : 20 ###
+04:58:35 (train) loss1 : 0.0018 loss2 : 0.0152
+04:58:35 (train) accuracy1 : 100.00% accuracy2 : 99.78% train time: 72.67s
+04:58:40 (eval) target accuracy: 99.75% eval time: 4.64s
+04:58:40 best accuracy: 99.75 % 
+04:58:40 
+### epoch : 21 ###
+04:59:55 (train) loss1 : 0.0241 loss2 : 0.0122
+04:59:55 (train) accuracy1 : 99.72% accuracy2 : 99.83% train time: 74.89s
+05:00:00 (eval) target accuracy: 99.71% eval time: 4.27s
+05:00:00 best accuracy: 99.75 % 
+05:00:00 
+### epoch : 22 ###
+05:01:14 (train) loss1 : 0.0471 loss2 : 0.0409
+05:01:14 (train) accuracy1 : 99.51% accuracy2 : 99.58% train time: 74.26s
+05:01:19 (eval) target accuracy: 98.49% eval time: 4.71s
+05:01:19 best accuracy: 99.75 % 
+05:01:19 
+### epoch : 23 ###
+05:02:33 (train) loss1 : 0.0236 loss2 : 0.0173
+05:02:33 (train) accuracy1 : 99.74% accuracy2 : 99.77% train time: 74.24s
+05:02:38 (eval) target accuracy: 99.59% eval time: 4.35s
+05:02:38 best accuracy: 99.75 % 
+05:02:38 
+### epoch : 24 ###
+05:03:51 (train) loss1 : 0.0134 loss2 : 0.0116
+05:03:51 (train) accuracy1 : 99.91% accuracy2 : 99.85% train time: 72.65s
+05:03:56 (eval) target accuracy: 99.80% eval time: 4.65s
+05:03:56 model is saved at 24 epochs
+05:03:56 best accuracy: 99.80 % 
+05:03:56 
+### epoch : 25 ###
+05:05:10 (train) loss1 : 0.0721 loss2 : 0.0428
+05:05:10 (train) accuracy1 : 99.01% accuracy2 : 99.56% train time: 73.32s
+05:05:15 (eval) target accuracy: 98.73% eval time: 4.65s
+05:05:15 best accuracy: 99.80 % 
+05:05:15 
+### epoch : 26 ###
+05:06:28 (train) loss1 : 0.0651 loss2 : 0.0214
+05:06:28 (train) accuracy1 : 99.32% accuracy2 : 99.84% train time: 73.03s
+05:06:33 (eval) target accuracy: 99.47% eval time: 4.65s
+05:06:33 best accuracy: 99.80 % 
+05:06:33 
+### epoch : 27 ###
+05:07:46 (train) loss1 : 0.0330 loss2 : 0.0325
+05:07:46 (train) accuracy1 : 99.55% accuracy2 : 99.61% train time: 72.74s
+05:07:51 (eval) target accuracy: 98.61% eval time: 4.66s
+05:07:51 best accuracy: 99.80 % 
+05:07:51 
+### epoch : 28 ###
+05:09:05 (train) loss1 : 0.0467 loss2 : 0.0425
+05:09:05 (train) accuracy1 : 99.38% accuracy2 : 99.52% train time: 74.06s
+05:09:10 (eval) target accuracy: 99.59% eval time: 4.71s
+05:09:10 best accuracy: 99.80 % 
+05:09:10 
+### epoch : 29 ###
+05:10:23 (train) loss1 : 0.0293 loss2 : 0.0131
+05:10:23 (train) accuracy1 : 99.65% accuracy2 : 99.80% train time: 73.23s
+05:10:28 (eval) target accuracy: 99.26% eval time: 4.26s
+05:10:28 best accuracy: 99.80 % 
+05:10:28 
+### epoch : 30 ###
+05:11:42 (train) loss1 : 0.0252 loss2 : 0.0239
+05:11:42 (train) accuracy1 : 99.77% accuracy2 : 99.75% train time: 73.71s
+05:11:47 (eval) target accuracy: 99.67% eval time: 4.34s
+05:11:47 best accuracy: 99.80 % 
+05:11:47 
+### epoch : 31 ###
+05:13:02 (train) loss1 : 0.0445 loss2 : 0.0180
+05:13:02 (train) accuracy1 : 99.49% accuracy2 : 99.78% train time: 75.31s
+05:13:07 (eval) target accuracy: 97.87% eval time: 4.33s
+05:13:07 best accuracy: 99.80 % 
+05:13:07 
+### epoch : 32 ###
+05:14:20 (train) loss1 : 0.0277 loss2 : 0.0211
+05:14:20 (train) accuracy1 : 99.71% accuracy2 : 99.75% train time: 73.08s
+05:14:25 (eval) target accuracy: 99.67% eval time: 4.26s
+05:14:25 best accuracy: 99.80 % 
+05:14:25 
+### epoch : 33 ###
+05:15:38 (train) loss1 : 0.0483 loss2 : 0.0244
+05:15:38 (train) accuracy1 : 99.42% accuracy2 : 99.65% train time: 72.88s
+05:15:43 (eval) target accuracy: 99.02% eval time: 4.66s
+05:15:43 best accuracy: 99.80 % 
+05:15:43 
+### epoch : 34 ###
+05:16:57 (train) loss1 : 0.0445 loss2 : 0.0204
+05:16:57 (train) accuracy1 : 99.38% accuracy2 : 99.75% train time: 74.11s
+05:17:02 (eval) target accuracy: 99.71% eval time: 4.60s
+05:17:02 best accuracy: 99.80 % 
+05:17:02 
+### epoch : 35 ###
+05:18:15 (train) loss1 : 0.0171 loss2 : 0.0136
+05:18:15 (train) accuracy1 : 99.75% accuracy2 : 99.91% train time: 72.49s
+05:18:20 (eval) target accuracy: 99.71% eval time: 4.65s
+05:18:20 best accuracy: 99.80 % 
+05:18:20 
+### epoch : 36 ###
+05:19:32 (train) loss1 : 0.0155 loss2 : 0.0077
+05:19:32 (train) accuracy1 : 99.80% accuracy2 : 99.93% train time: 72.38s
+05:19:37 (eval) target accuracy: 99.43% eval time: 4.32s
+05:19:37 best accuracy: 99.80 % 
+05:19:37 
+### epoch : 37 ###
+05:20:51 (train) loss1 : 0.0344 loss2 : 0.0129
+05:20:51 (train) accuracy1 : 99.61% accuracy2 : 99.81% train time: 73.43s
+05:20:56 (eval) target accuracy: 99.71% eval time: 4.36s
+05:20:56 best accuracy: 99.80 % 
+05:20:56 
+### epoch : 38 ###
+05:22:09 (train) loss1 : 0.0369 loss2 : 0.0091
+05:22:09 (train) accuracy1 : 99.52% accuracy2 : 99.88% train time: 73.51s
+05:22:14 (eval) target accuracy: 98.90% eval time: 4.32s
+05:22:14 best accuracy: 99.80 % 
+05:22:14 
+### epoch : 39 ###
+05:23:28 (train) loss1 : 0.0373 loss2 : 0.0353
+05:23:28 (train) accuracy1 : 99.51% accuracy2 : 99.61% train time: 73.25s
+05:23:33 (eval) target accuracy: 99.75% eval time: 4.24s
+05:23:33 best accuracy: 99.80 % 
+05:23:33 
+### epoch : 40 ###
+05:24:47 (train) loss1 : 0.0184 loss2 : 0.0111
+05:24:47 (train) accuracy1 : 99.74% accuracy2 : 99.87% train time: 74.40s
+05:24:52 (eval) target accuracy: 98.65% eval time: 4.60s
+05:24:52 best accuracy: 99.80 % 
+05:24:52 
+### epoch : 41 ###
+05:26:06 (train) loss1 : 0.0278 loss2 : 0.0325
+05:26:06 (train) accuracy1 : 99.69% accuracy2 : 99.61% train time: 74.02s
+05:26:11 (eval) target accuracy: 99.51% eval time: 4.37s
+05:26:11 best accuracy: 99.80 % 
+05:26:11 
+### epoch : 42 ###
+05:27:26 (train) loss1 : 0.0325 loss2 : 0.0296
+05:27:26 (train) accuracy1 : 99.64% accuracy2 : 99.68% train time: 74.51s
+05:27:31 (eval) target accuracy: 99.67% eval time: 4.31s
+05:27:31 best accuracy: 99.80 % 
+05:27:31 
+### epoch : 43 ###
+05:28:44 (train) loss1 : 0.0195 loss2 : 0.0153
+05:28:44 (train) accuracy1 : 99.78% accuracy2 : 99.87% train time: 73.26s
+05:28:49 (eval) target accuracy: 99.43% eval time: 4.91s
+05:28:49 best accuracy: 99.80 % 
+05:28:49 
+### epoch : 44 ###
+05:30:04 (train) loss1 : 0.0209 loss2 : 0.0366
+05:30:04 (train) accuracy1 : 99.72% accuracy2 : 99.56% train time: 75.01s
+05:30:09 (eval) target accuracy: 99.43% eval time: 4.63s
+05:30:09 best accuracy: 99.80 % 
+05:30:09 
+### epoch : 45 ###
+05:31:23 (train) loss1 : 0.0540 loss2 : 0.0176
+05:31:23 (train) accuracy1 : 99.33% accuracy2 : 99.75% train time: 73.21s
+05:31:28 (eval) target accuracy: 99.80% eval time: 4.29s
+05:31:28 best accuracy: 99.80 % 
+05:31:28 
+### epoch : 46 ###
+05:32:41 (train) loss1 : 0.0207 loss2 : 0.0257
+05:32:41 (train) accuracy1 : 99.78% accuracy2 : 99.75% train time: 73.07s
+05:32:46 (eval) target accuracy: 99.51% eval time: 4.60s
+05:32:46 best accuracy: 99.80 % 
+05:32:46 
+### epoch : 47 ###
+05:33:59 (train) loss1 : 0.0237 loss2 : 0.0124
+05:33:59 (train) accuracy1 : 99.65% accuracy2 : 99.87% train time: 73.09s
+05:34:04 (eval) target accuracy: 99.39% eval time: 4.95s
+05:34:04 best accuracy: 99.80 % 
+05:34:04 
+### epoch : 48 ###
+05:35:18 (train) loss1 : 0.0282 loss2 : 0.0118
+05:35:18 (train) accuracy1 : 99.59% accuracy2 : 99.88% train time: 73.32s
+05:35:23 (eval) target accuracy: 99.67% eval time: 4.28s
+05:35:23 best accuracy: 99.80 % 
+05:35:23 
+### epoch : 49 ###
+05:36:37 (train) loss1 : 0.0208 loss2 : 0.0179
+05:36:37 (train) accuracy1 : 99.75% accuracy2 : 99.80% train time: 74.14s
+05:36:42 (eval) target accuracy: 99.71% eval time: 4.61s
+05:36:42 best accuracy: 99.80 % 
+05:36:42 
+### epoch : 50 ###
+05:37:55 (train) loss1 : 0.0657 loss2 : 0.0179
+05:37:55 (train) accuracy1 : 99.33% accuracy2 : 99.80% train time: 72.44s
+05:38:00 (eval) target accuracy: 99.67% eval time: 4.69s
+05:38:00 best accuracy: 99.80 % 
+05:38:00 
+### epoch : 51 ###
+05:39:13 (train) loss1 : 0.0481 loss2 : 0.0155
+05:39:13 (train) accuracy1 : 99.46% accuracy2 : 99.77% train time: 73.00s
+05:39:18 (eval) target accuracy: 98.85% eval time: 4.91s
+05:39:18 best accuracy: 99.80 % 
+05:39:18 
+### epoch : 52 ###
+05:40:31 (train) loss1 : 0.0420 loss2 : 0.0285
+05:40:31 (train) accuracy1 : 99.48% accuracy2 : 99.68% train time: 73.24s
+05:40:36 (eval) target accuracy: 99.55% eval time: 4.28s
+05:40:36 best accuracy: 99.80 % 
+05:40:36 
+### epoch : 53 ###
+05:41:49 (train) loss1 : 0.0259 loss2 : 0.0121
+05:41:49 (train) accuracy1 : 99.75% accuracy2 : 99.83% train time: 73.01s
+05:41:55 (eval) target accuracy: 99.43% eval time: 4.83s
+05:41:55 best accuracy: 99.80 % 
+05:41:55 
+### epoch : 54 ###
+05:43:08 (train) loss1 : 0.0301 loss2 : 0.0136
+05:43:08 (train) accuracy1 : 99.51% accuracy2 : 99.87% train time: 73.71s
+05:43:13 (eval) target accuracy: 99.39% eval time: 4.75s
+05:43:13 best accuracy: 99.80 % 
+05:43:13 
+### epoch : 55 ###
+05:44:27 (train) loss1 : 0.0076 loss2 : 0.0007
+05:44:27 (train) accuracy1 : 99.88% accuracy2 : 100.00% train time: 73.33s
+05:44:32 (eval) target accuracy: 99.75% eval time: 4.95s
+05:44:32 best accuracy: 99.80 % 
+05:44:32 
+### epoch : 56 ###
+05:45:46 (train) loss1 : 0.0022 loss2 : 0.0003
+05:45:46 (train) accuracy1 : 99.97% accuracy2 : 100.00% train time: 73.95s
+05:45:51 (eval) target accuracy: 99.67% eval time: 4.24s
+05:45:51 best accuracy: 99.80 % 
+05:45:51 
+### epoch : 57 ###
+05:47:07 (train) loss1 : 0.0082 loss2 : 0.0004
+05:47:07 (train) accuracy1 : 99.88% accuracy2 : 100.00% train time: 75.78s
+05:47:12 (eval) target accuracy: 99.84% eval time: 4.64s
+05:47:12 model is saved at 57 epochs
+05:47:12 best accuracy: 99.84 % 
+05:47:12 
+### epoch : 58 ###
+05:48:26 (train) loss1 : 0.0395 loss2 : 0.0342
+05:48:26 (train) accuracy1 : 99.49% accuracy2 : 99.59% train time: 73.78s
+05:48:31 (eval) target accuracy: 97.26% eval time: 4.72s
+05:48:31 best accuracy: 99.84 % 
+05:48:31 
+### epoch : 59 ###
+05:49:45 (train) loss1 : 0.0613 loss2 : 0.0062
+05:49:45 (train) accuracy1 : 99.24% accuracy2 : 99.93% train time: 73.76s
+05:49:50 (eval) target accuracy: 99.06% eval time: 4.82s
+05:49:50 best accuracy: 99.84 % 
+05:49:50 
+### epoch : 60 ###
+05:51:05 (train) loss1 : 0.0144 loss2 : 0.0222
+05:51:05 (train) accuracy1 : 99.87% accuracy2 : 99.75% train time: 74.36s
+05:51:10 (eval) target accuracy: 99.71% eval time: 4.67s
+05:51:10 best accuracy: 99.84 % 
+05:51:10 
+### epoch : 61 ###
+05:52:24 (train) loss1 : 0.0427 loss2 : 0.0233
+05:52:24 (train) accuracy1 : 99.40% accuracy2 : 99.69% train time: 74.18s
+05:52:29 (eval) target accuracy: 99.51% eval time: 5.02s
+05:52:29 best accuracy: 99.84 % 
+05:52:29 
+### epoch : 62 ###
+05:53:45 (train) loss1 : 0.0473 loss2 : 0.0358
+05:53:45 (train) accuracy1 : 99.32% accuracy2 : 99.55% train time: 75.52s
+05:53:50 (eval) target accuracy: 99.75% eval time: 4.29s
+05:53:50 best accuracy: 99.84 % 
+05:53:50 
+### epoch : 63 ###
+05:55:05 (train) loss1 : 0.0375 loss2 : 0.0156
+05:55:05 (train) accuracy1 : 99.55% accuracy2 : 99.83% train time: 74.92s
+05:55:10 (eval) target accuracy: 99.59% eval time: 4.69s
+05:55:10 best accuracy: 99.84 % 
+05:55:10 
+### epoch : 64 ###
+05:56:24 (train) loss1 : 0.0214 loss2 : 0.0160
+05:56:24 (train) accuracy1 : 99.75% accuracy2 : 99.80% train time: 73.74s
+05:56:29 (eval) target accuracy: 99.71% eval time: 4.37s
+05:56:29 best accuracy: 99.84 % 
+05:56:29 
+### epoch : 65 ###
+05:57:42 (train) loss1 : 0.0015 loss2 : 0.0005
+05:57:42 (train) accuracy1 : 100.00% accuracy2 : 100.00% train time: 72.61s
+05:57:47 (eval) target accuracy: 99.84% eval time: 4.97s
+05:57:47 best accuracy: 99.84 % 
+05:57:47 
+### epoch : 66 ###
+05:59:00 (train) loss1 : 0.0179 loss2 : 0.0106
+05:59:00 (train) accuracy1 : 99.78% accuracy2 : 99.88% train time: 72.48s
+05:59:05 (eval) target accuracy: 99.71% eval time: 4.64s
+05:59:05 best accuracy: 99.84 % 
+05:59:05 
+### epoch : 67 ###
+06:00:20 (train) loss1 : 0.0076 loss2 : 0.0010
+06:00:20 (train) accuracy1 : 99.96% accuracy2 : 100.00% train time: 75.09s
+06:00:25 (eval) target accuracy: 99.80% eval time: 4.66s
+06:00:25 best accuracy: 99.84 % 
+06:00:25 
+### epoch : 68 ###
+06:01:37 (train) loss1 : 0.0439 loss2 : 0.0184
+06:01:37 (train) accuracy1 : 99.52% accuracy2 : 99.81% train time: 72.46s
+06:01:42 (eval) target accuracy: 98.45% eval time: 4.68s
+06:01:42 best accuracy: 99.84 % 
+06:01:42 
+### epoch : 69 ###
+06:02:57 (train) loss1 : 0.0484 loss2 : 0.0205
+06:02:57 (train) accuracy1 : 99.32% accuracy2 : 99.78% train time: 74.32s
+06:03:02 (eval) target accuracy: 99.75% eval time: 4.63s
+06:03:02 best accuracy: 99.84 % 
+06:03:02 
+### epoch : 70 ###
+06:04:17 (train) loss1 : 0.0324 loss2 : 0.0269
+06:04:17 (train) accuracy1 : 99.55% accuracy2 : 99.68% train time: 75.14s
+06:04:22 (eval) target accuracy: 99.71% eval time: 4.25s
+06:04:22 best accuracy: 99.84 % 
+06:04:22 
+### epoch : 71 ###
+06:05:35 (train) loss1 : 0.0220 loss2 : 0.0125
+06:05:35 (train) accuracy1 : 99.75% accuracy2 : 99.90% train time: 73.43s
+06:05:41 (eval) target accuracy: 99.80% eval time: 4.86s
+06:05:41 best accuracy: 99.84 % 
+06:05:41 
+### epoch : 72 ###
+06:06:53 (train) loss1 : 0.0403 loss2 : 0.0182
+06:06:53 (train) accuracy1 : 99.49% accuracy2 : 99.75% train time: 72.59s
+06:06:59 (eval) target accuracy: 99.63% eval time: 4.31s
+06:06:59 best accuracy: 99.84 % 
+06:06:59 
+### epoch : 73 ###
+06:08:12 (train) loss1 : 0.0330 loss2 : 0.0168
+06:08:12 (train) accuracy1 : 99.62% accuracy2 : 99.78% train time: 73.72s
+06:08:17 (eval) target accuracy: 99.10% eval time: 4.31s
+06:08:17 best accuracy: 99.84 % 
+06:08:17 
+### epoch : 74 ###
+06:09:31 (train) loss1 : 0.0405 loss2 : 0.0295
+06:09:31 (train) accuracy1 : 99.40% accuracy2 : 99.64% train time: 73.88s
+06:09:36 (eval) target accuracy: 99.75% eval time: 4.66s
+06:09:36 best accuracy: 99.84 % 
+06:09:36 
+### epoch : 75 ###
+06:10:52 (train) loss1 : 0.0267 loss2 : 0.0110
+06:10:52 (train) accuracy1 : 99.65% accuracy2 : 99.88% train time: 75.56s
+06:10:57 (eval) target accuracy: 99.71% eval time: 5.01s
+06:10:57 best accuracy: 99.84 % 
+06:10:57 
+### epoch : 76 ###
+06:12:12 (train) loss1 : 0.0169 loss2 : 0.0146
+06:12:12 (train) accuracy1 : 99.81% accuracy2 : 99.83% train time: 74.12s
+06:12:17 (eval) target accuracy: 99.51% eval time: 4.62s
+06:12:17 best accuracy: 99.84 % 
+06:12:17 
+### epoch : 77 ###
+06:13:30 (train) loss1 : 0.0425 loss2 : 0.0107
+06:13:30 (train) accuracy1 : 99.39% accuracy2 : 99.90% train time: 73.00s
+06:13:35 (eval) target accuracy: 99.84% eval time: 4.92s
+06:13:35 best accuracy: 99.84 % 
+06:13:35 
+### epoch : 78 ###
+06:14:48 (train) loss1 : 0.0350 loss2 : 0.0359
+06:14:48 (train) accuracy1 : 99.53% accuracy2 : 99.56% train time: 73.26s
+06:14:54 (eval) target accuracy: 99.67% eval time: 4.59s
+06:14:54 best accuracy: 99.84 % 
+06:14:54 
+### epoch : 79 ###
+06:16:08 (train) loss1 : 0.0082 loss2 : 0.0103
+06:16:08 (train) accuracy1 : 99.96% accuracy2 : 99.87% train time: 74.03s
+06:16:13 (eval) target accuracy: 99.75% eval time: 4.67s
+06:16:13 best accuracy: 99.84 % 
+06:16:13 
+### epoch : 80 ###
+06:17:25 (train) loss1 : 0.0427 loss2 : 0.0210
+06:17:25 (train) accuracy1 : 99.48% accuracy2 : 99.78% train time: 72.75s
+06:17:30 (eval) target accuracy: 99.71% eval time: 4.62s
+06:17:30 best accuracy: 99.84 % 
+06:17:30 
+### epoch : 81 ###
+06:18:46 (train) loss1 : 0.0199 loss2 : 0.0117
+06:18:46 (train) accuracy1 : 99.75% accuracy2 : 99.85% train time: 75.88s
+06:18:52 (eval) target accuracy: 99.63% eval time: 5.24s
+06:18:52 best accuracy: 99.84 % 
+06:18:52 
+### epoch : 82 ###
+06:20:06 (train) loss1 : 0.0319 loss2 : 0.0118
+06:20:06 (train) accuracy1 : 99.62% accuracy2 : 99.87% train time: 73.80s
+06:20:11 (eval) target accuracy: 99.80% eval time: 4.42s
+06:20:11 best accuracy: 99.84 % 
+06:20:11 
+### epoch : 83 ###
+06:21:25 (train) loss1 : 0.0039 loss2 : 0.0023
+06:21:25 (train) accuracy1 : 99.97% accuracy2 : 99.97% train time: 73.85s
+06:21:30 (eval) target accuracy: 99.75% eval time: 5.00s
+06:21:30 best accuracy: 99.84 % 
+06:21:30 
+### epoch : 84 ###
+06:22:43 (train) loss1 : 0.0323 loss2 : 0.0086
+06:22:43 (train) accuracy1 : 99.69% accuracy2 : 99.85% train time: 73.10s
+06:22:48 (eval) target accuracy: 99.59% eval time: 4.62s
+06:22:48 best accuracy: 99.84 % 
+06:22:48 
+### epoch : 85 ###
+06:24:02 (train) loss1 : 0.0490 loss2 : 0.0266
+06:24:02 (train) accuracy1 : 99.27% accuracy2 : 99.74% train time: 73.95s
+06:24:08 (eval) target accuracy: 99.47% eval time: 4.62s
+06:24:08 best accuracy: 99.84 % 
+06:24:08 
+### epoch : 86 ###
+06:25:22 (train) loss1 : 0.0161 loss2 : 0.0180
+06:25:22 (train) accuracy1 : 99.78% accuracy2 : 99.80% train time: 74.43s
+06:25:27 (eval) target accuracy: 98.32% eval time: 4.69s
+06:25:27 best accuracy: 99.84 % 
+06:25:27 
+### epoch : 87 ###
+06:26:42 (train) loss1 : 0.0279 loss2 : 0.0111
+06:26:42 (train) accuracy1 : 99.65% accuracy2 : 99.83% train time: 74.64s
+06:26:47 (eval) target accuracy: 99.30% eval time: 5.04s
+06:26:47 best accuracy: 99.84 % 
+06:26:47 
+### epoch : 88 ###
+06:28:02 (train) loss1 : 0.0236 loss2 : 0.0284
+06:28:02 (train) accuracy1 : 99.67% accuracy2 : 99.69% train time: 74.45s
+06:28:07 (eval) target accuracy: 99.67% eval time: 4.25s
+06:28:07 best accuracy: 99.84 % 
+06:28:07 
+### epoch : 89 ###
+06:29:21 (train) loss1 : 0.0311 loss2 : 0.0044
+06:29:21 (train) accuracy1 : 99.59% accuracy2 : 99.94% train time: 74.21s
+06:29:26 (eval) target accuracy: 99.84% eval time: 4.31s
+06:29:26 best accuracy: 99.84 % 
+06:29:26 
+### epoch : 90 ###
+06:30:39 (train) loss1 : 0.0428 loss2 : 0.0101
+06:30:39 (train) accuracy1 : 99.53% accuracy2 : 99.87% train time: 73.06s
+06:30:44 (eval) target accuracy: 99.67% eval time: 4.26s
+06:30:44 best accuracy: 99.84 % 
+06:30:44 
+### epoch : 91 ###
+06:31:58 (train) loss1 : 0.0085 loss2 : 0.0011
+06:31:58 (train) accuracy1 : 99.93% accuracy2 : 100.00% train time: 73.99s
+06:32:04 (eval) target accuracy: 99.80% eval time: 5.05s
+06:32:04 best accuracy: 99.84 % 
+06:32:04 
+### epoch : 92 ###
+06:33:17 (train) loss1 : 0.0454 loss2 : 0.0307
+06:33:17 (train) accuracy1 : 99.49% accuracy2 : 99.68% train time: 73.34s
+06:33:22 (eval) target accuracy: 99.59% eval time: 4.98s
+06:33:22 best accuracy: 99.84 % 
+06:33:22 
+### epoch : 93 ###
+06:34:37 (train) loss1 : 0.0061 loss2 : 0.0008
+06:34:37 (train) accuracy1 : 99.94% accuracy2 : 100.00% train time: 74.25s
+06:34:42 (eval) target accuracy: 99.84% eval time: 4.63s
+06:34:42 best accuracy: 99.84 % 
+06:34:42 
+### epoch : 94 ###
+06:35:55 (train) loss1 : 0.0166 loss2 : 0.0014
+06:35:55 (train) accuracy1 : 99.80% accuracy2 : 99.97% train time: 72.83s
+06:36:00 (eval) target accuracy: 98.77% eval time: 4.69s
+06:36:00 best accuracy: 99.84 % 
+06:36:00 
+### epoch : 95 ###
+06:37:15 (train) loss1 : 0.0580 loss2 : 0.0283
+06:37:15 (train) accuracy1 : 99.32% accuracy2 : 99.69% train time: 74.90s
+06:37:20 (eval) target accuracy: 99.67% eval time: 5.04s
+06:37:20 best accuracy: 99.84 % 
+06:37:20 
+### epoch : 96 ###
+06:38:33 (train) loss1 : 0.0232 loss2 : 0.0148
+06:38:33 (train) accuracy1 : 99.67% accuracy2 : 99.87% train time: 72.92s
+06:38:38 (eval) target accuracy: 99.71% eval time: 4.60s
+06:38:38 best accuracy: 99.84 % 
+06:38:38 
+### epoch : 97 ###
+06:39:51 (train) loss1 : 0.0234 loss2 : 0.0183
+06:39:51 (train) accuracy1 : 99.75% accuracy2 : 99.81% train time: 73.03s
+06:39:57 (eval) target accuracy: 99.63% eval time: 5.20s
+06:39:57 best accuracy: 99.84 % 
+06:39:57 
+### epoch : 98 ###
+06:41:10 (train) loss1 : 0.0204 loss2 : 0.0237
+06:41:10 (train) accuracy1 : 99.83% accuracy2 : 99.62% train time: 73.25s
+06:41:15 (eval) target accuracy: 98.77% eval time: 4.65s
+06:41:15 best accuracy: 99.84 % 
+06:41:15 
+### epoch : 99 ###
+06:42:30 (train) loss1 : 0.0215 loss2 : 0.0047
+06:42:30 (train) accuracy1 : 99.75% accuracy2 : 99.94% train time: 74.87s
+06:42:35 (eval) target accuracy: 99.22% eval time: 5.06s
+06:42:35 best accuracy: 99.84 % 
+06:42:35 
+### epoch : 100 ###
+06:43:49 (train) loss1 : 0.0118 loss2 : 0.0150
+06:43:49 (train) accuracy1 : 99.90% accuracy2 : 99.77% train time: 74.09s
+06:43:54 (eval) target accuracy: 99.63% eval time: 4.60s
+06:43:54 best accuracy: 99.84 % 
+06:43:54 
+### epoch : 101 ###
+06:45:09 (train) loss1 : 0.0458 loss2 : 0.0197
+06:45:09 (train) accuracy1 : 99.48% accuracy2 : 99.74% train time: 74.46s
+06:45:14 (eval) target accuracy: 99.51% eval time: 4.62s
+06:45:14 best accuracy: 99.84 % 
+06:45:14 
+### epoch : 102 ###
+06:46:29 (train) loss1 : 0.0485 loss2 : 0.0243
+06:46:29 (train) accuracy1 : 99.53% accuracy2 : 99.72% train time: 74.26s
+06:46:34 (eval) target accuracy: 99.75% eval time: 4.97s
+06:46:34 best accuracy: 99.84 % 
+06:46:34 
+### epoch : 103 ###
+06:47:47 (train) loss1 : 0.0211 loss2 : 0.0236
+06:47:47 (train) accuracy1 : 99.74% accuracy2 : 99.74% train time: 72.69s
+06:47:52 (eval) target accuracy: 99.67% eval time: 4.30s
+06:47:52 best accuracy: 99.84 % 
+06:47:52 
+### epoch : 104 ###
+06:49:05 (train) loss1 : 0.0114 loss2 : 0.0023
+06:49:05 (train) accuracy1 : 99.87% accuracy2 : 99.97% train time: 73.26s
+06:49:10 (eval) target accuracy: 99.39% eval time: 4.60s
+06:49:10 best accuracy: 99.84 % 
+06:49:10 
+### epoch : 105 ###
+06:50:23 (train) loss1 : 0.0502 loss2 : 0.0175
+06:50:23 (train) accuracy1 : 99.45% accuracy2 : 99.78% train time: 72.95s
+06:50:28 (eval) target accuracy: 99.71% eval time: 4.31s
+06:50:28 best accuracy: 99.84 % 
+06:50:28 
+### epoch : 106 ###
+06:51:42 (train) loss1 : 0.0177 loss2 : 0.0142
+06:51:42 (train) accuracy1 : 99.85% accuracy2 : 99.87% train time: 73.83s
+06:51:47 (eval) target accuracy: 99.75% eval time: 4.72s
+06:51:47 best accuracy: 99.84 % 
+06:51:47 
+### epoch : 107 ###
+06:53:01 (train) loss1 : 0.0339 loss2 : 0.0064
+06:53:01 (train) accuracy1 : 99.69% accuracy2 : 99.88% train time: 73.98s
+06:53:06 (eval) target accuracy: 99.10% eval time: 4.92s
+06:53:06 best accuracy: 99.84 % 
+06:53:06 
+### epoch : 108 ###
+06:54:21 (train) loss1 : 0.0432 loss2 : 0.0226
+06:54:21 (train) accuracy1 : 99.49% accuracy2 : 99.74% train time: 74.77s
+06:54:26 (eval) target accuracy: 98.32% eval time: 4.63s
+06:54:26 best accuracy: 99.84 % 
+06:54:26 
+### epoch : 109 ###
+06:55:39 (train) loss1 : 0.0352 loss2 : 0.0120
+06:55:39 (train) accuracy1 : 99.67% accuracy2 : 99.84% train time: 72.60s
+06:55:44 (eval) target accuracy: 99.71% eval time: 4.30s
+06:55:44 best accuracy: 99.84 % 
+06:55:44 
+### epoch : 110 ###
+06:56:57 (train) loss1 : 0.0428 loss2 : 0.0224
+06:56:57 (train) accuracy1 : 99.58% accuracy2 : 99.77% train time: 72.83s
+06:57:02 (eval) target accuracy: 99.71% eval time: 4.36s
+06:57:02 best accuracy: 99.84 % 
+06:57:02 
+### epoch : 111 ###
+06:58:15 (train) loss1 : 0.0085 loss2 : 0.0024
+06:58:15 (train) accuracy1 : 99.91% accuracy2 : 99.97% train time: 73.50s
+06:58:21 (eval) target accuracy: 99.63% eval time: 5.01s
+06:58:21 best accuracy: 99.84 % 
+06:58:21 
+### epoch : 112 ###
+06:59:34 (train) loss1 : 0.0094 loss2 : 0.0103
+06:59:34 (train) accuracy1 : 99.87% accuracy2 : 99.88% train time: 73.07s
+06:59:39 (eval) target accuracy: 99.75% eval time: 4.32s
+06:59:39 best accuracy: 99.84 % 
+06:59:39 
+### epoch : 113 ###
+07:00:53 (train) loss1 : 0.0156 loss2 : 0.0012
+07:00:53 (train) accuracy1 : 99.84% accuracy2 : 100.00% train time: 74.28s
+07:00:58 (eval) target accuracy: 93.99% eval time: 4.94s
+07:00:58 best accuracy: 99.84 % 
+07:00:58 
+### epoch : 114 ###
+07:02:11 (train) loss1 : 0.0353 loss2 : 0.0045
+07:02:11 (train) accuracy1 : 99.59% accuracy2 : 99.96% train time: 72.82s
+07:02:16 (eval) target accuracy: 99.71% eval time: 4.62s
+07:02:16 best accuracy: 99.84 % 
+07:02:16 
+### epoch : 115 ###
+07:03:30 (train) loss1 : 0.0326 loss2 : 0.0163
+07:03:30 (train) accuracy1 : 99.56% accuracy2 : 99.84% train time: 73.36s
+07:03:35 (eval) target accuracy: 99.75% eval time: 4.67s
+07:03:35 best accuracy: 99.84 % 
+07:03:35 
+### epoch : 116 ###
+07:04:47 (train) loss1 : 0.0397 loss2 : 0.0218
+07:04:47 (train) accuracy1 : 99.42% accuracy2 : 99.71% train time: 72.22s
+07:04:52 (eval) target accuracy: 99.63% eval time: 4.63s
+07:04:52 best accuracy: 99.84 % 
+07:04:52 
+### epoch : 117 ###
+07:06:05 (train) loss1 : 0.0418 loss2 : 0.0282
+07:06:05 (train) accuracy1 : 99.42% accuracy2 : 99.65% train time: 73.15s
+07:06:11 (eval) target accuracy: 99.71% eval time: 5.05s
+07:06:11 best accuracy: 99.84 % 
+07:06:11 
+### epoch : 118 ###
+07:07:24 (train) loss1 : 0.0241 loss2 : 0.0046
+07:07:24 (train) accuracy1 : 99.71% accuracy2 : 99.96% train time: 73.44s
+07:07:29 (eval) target accuracy: 99.63% eval time: 4.63s
+07:07:29 best accuracy: 99.84 % 
+07:07:29 
+### epoch : 119 ###
+07:08:42 (train) loss1 : 0.0396 loss2 : 0.0191
+07:08:42 (train) accuracy1 : 99.51% accuracy2 : 99.77% train time: 72.85s
+07:08:48 (eval) target accuracy: 99.55% eval time: 5.25s
+07:08:48 best accuracy: 99.84 % 
+07:08:48 
+### epoch : 120 ###
+07:10:01 (train) loss1 : 0.0296 loss2 : 0.0027
+07:10:01 (train) accuracy1 : 99.62% accuracy2 : 99.99% train time: 73.03s
+07:10:06 (eval) target accuracy: 99.63% eval time: 4.61s
+07:10:06 best accuracy: 99.84 % 
+07:10:06 
+### epoch : 121 ###
+07:11:21 (train) loss1 : 0.0448 loss2 : 0.0264
+07:11:21 (train) accuracy1 : 99.39% accuracy2 : 99.64% train time: 74.57s
+07:11:26 (eval) target accuracy: 98.90% eval time: 4.68s
+07:11:26 best accuracy: 99.84 % 
+07:11:26 
+### epoch : 122 ###
+07:12:39 (train) loss1 : 0.0163 loss2 : 0.0175
+07:12:39 (train) accuracy1 : 99.80% accuracy2 : 99.83% train time: 72.97s
+07:12:44 (eval) target accuracy: 99.75% eval time: 4.41s
+07:12:44 best accuracy: 99.84 % 
+07:12:44 
+### epoch : 123 ###
+07:13:57 (train) loss1 : 0.0268 loss2 : 0.0190
+07:13:57 (train) accuracy1 : 99.67% accuracy2 : 99.75% train time: 72.84s
+07:14:02 (eval) target accuracy: 99.75% eval time: 4.77s
+07:14:02 best accuracy: 99.84 % 
+07:14:02 
+### epoch : 124 ###
+07:15:15 (train) loss1 : 0.0077 loss2 : 0.0060
+07:15:15 (train) accuracy1 : 99.96% accuracy2 : 99.93% train time: 72.34s
+07:15:20 (eval) target accuracy: 99.80% eval time: 4.62s
+07:15:20 best accuracy: 99.84 % 
+07:15:20 
+### epoch : 125 ###
+07:16:33 (train) loss1 : 0.0062 loss2 : 0.0005
+07:16:33 (train) accuracy1 : 99.90% accuracy2 : 100.00% train time: 73.17s
+07:16:38 (eval) target accuracy: 99.71% eval time: 4.69s
+07:16:38 best accuracy: 99.84 % 
+07:16:38 
+### epoch : 126 ###
+07:17:51 (train) loss1 : 0.0451 loss2 : 0.0028
+07:17:51 (train) accuracy1 : 99.48% accuracy2 : 99.96% train time: 72.35s
+07:17:56 (eval) target accuracy: 99.39% eval time: 4.63s
+07:17:56 best accuracy: 99.84 % 
+07:17:56 
+### epoch : 127 ###
+07:19:08 (train) loss1 : 0.0367 loss2 : 0.0206
+07:19:08 (train) accuracy1 : 99.59% accuracy2 : 99.74% train time: 72.66s
+07:19:14 (eval) target accuracy: 99.51% eval time: 4.86s
+07:19:14 best accuracy: 99.84 % 
+07:19:14 
+### epoch : 128 ###
+07:20:28 (train) loss1 : 0.0415 loss2 : 0.0285
+07:20:28 (train) accuracy1 : 99.38% accuracy2 : 99.65% train time: 74.13s
+07:20:33 (eval) target accuracy: 99.59% eval time: 4.90s
+07:20:33 best accuracy: 99.84 % 
+07:20:33 
+### epoch : 129 ###
+07:21:48 (train) loss1 : 0.0143 loss2 : 0.0168
+07:21:48 (train) accuracy1 : 99.83% accuracy2 : 99.80% train time: 74.40s
+07:21:53 (eval) target accuracy: 97.83% eval time: 4.66s
+07:21:53 best accuracy: 99.84 % 
+07:21:53 
+### epoch : 130 ###
+07:23:07 (train) loss1 : 0.0170 loss2 : 0.0026
+07:23:07 (train) accuracy1 : 99.77% accuracy2 : 99.99% train time: 73.89s
+07:23:12 (eval) target accuracy: 99.71% eval time: 4.63s
+07:23:12 best accuracy: 99.84 % 
+07:23:12 
+### epoch : 131 ###
+07:24:25 (train) loss1 : 0.0433 loss2 : 0.0110
+07:24:25 (train) accuracy1 : 99.51% accuracy2 : 99.87% train time: 73.49s
+07:24:30 (eval) target accuracy: 99.51% eval time: 4.28s
+07:24:30 best accuracy: 99.84 % 
+07:24:30 
+### epoch : 132 ###
+07:25:43 (train) loss1 : 0.0261 loss2 : 0.0144
+07:25:43 (train) accuracy1 : 99.61% accuracy2 : 99.83% train time: 72.46s
+07:25:48 (eval) target accuracy: 99.43% eval time: 4.67s
+07:25:48 best accuracy: 99.84 % 
+07:25:48 
+### epoch : 133 ###
+07:27:00 (train) loss1 : 0.0239 loss2 : 0.0101
+07:27:00 (train) accuracy1 : 99.78% accuracy2 : 99.83% train time: 72.51s
+07:27:05 (eval) target accuracy: 99.75% eval time: 4.70s
+07:27:05 best accuracy: 99.84 % 
+07:27:05 
+### epoch : 134 ###
+07:28:20 (train) loss1 : 0.0038 loss2 : 0.0009
+07:28:20 (train) accuracy1 : 99.96% accuracy2 : 100.00% train time: 74.76s
+07:28:25 (eval) target accuracy: 99.71% eval time: 4.23s
+07:28:25 best accuracy: 99.84 % 
+07:28:25 
+### epoch : 135 ###
+07:29:39 (train) loss1 : 0.0156 loss2 : 0.0050
+07:29:39 (train) accuracy1 : 99.85% accuracy2 : 99.97% train time: 73.86s
+07:29:44 (eval) target accuracy: 99.55% eval time: 4.90s
+07:29:44 best accuracy: 99.84 % 
+07:29:44 
+### epoch : 136 ###
+07:30:57 (train) loss1 : 0.0082 loss2 : 0.0033
+07:30:57 (train) accuracy1 : 99.88% accuracy2 : 99.97% train time: 72.78s
+07:31:02 (eval) target accuracy: 99.80% eval time: 4.27s
+07:31:02 best accuracy: 99.84 % 
+07:31:02 
+### epoch : 137 ###
+07:32:16 (train) loss1 : 0.0376 loss2 : 0.0202
+07:32:16 (train) accuracy1 : 99.43% accuracy2 : 99.80% train time: 74.13s
+07:32:22 (eval) target accuracy: 99.22% eval time: 4.98s
+07:32:22 best accuracy: 99.84 % 
+07:32:22 
+### epoch : 138 ###
+07:33:34 (train) loss1 : 0.0441 loss2 : 0.0180
+07:33:34 (train) accuracy1 : 99.53% accuracy2 : 99.80% train time: 72.70s
+07:33:39 (eval) target accuracy: 99.75% eval time: 4.26s
+07:33:39 best accuracy: 99.84 % 
+07:33:39 
+### epoch : 139 ###
+07:34:52 (train) loss1 : 0.0237 loss2 : 0.0137
+07:34:52 (train) accuracy1 : 99.64% accuracy2 : 99.84% train time: 72.45s
+07:34:57 (eval) target accuracy: 99.67% eval time: 4.99s
+07:34:57 best accuracy: 99.84 % 
+07:34:57 
+### epoch : 140 ###
+07:36:11 (train) loss1 : 0.0427 loss2 : 0.0207
+07:36:11 (train) accuracy1 : 99.36% accuracy2 : 99.71% train time: 73.34s
+07:36:16 (eval) target accuracy: 99.84% eval time: 4.38s
+07:36:16 best accuracy: 99.84 % 
+07:36:16 
+### epoch : 141 ###
+07:37:31 (train) loss1 : 0.0469 loss2 : 0.0174
+07:37:31 (train) accuracy1 : 99.38% accuracy2 : 99.75% train time: 75.52s
+07:37:37 (eval) target accuracy: 99.63% eval time: 4.90s
+07:37:37 best accuracy: 99.84 % 
+07:37:37 
+### epoch : 142 ###
+07:38:49 (train) loss1 : 0.0140 loss2 : 0.0019
+07:38:49 (train) accuracy1 : 99.85% accuracy2 : 99.99% train time: 72.88s
+07:38:54 (eval) target accuracy: 99.71% eval time: 4.62s
+07:38:54 best accuracy: 99.84 % 
+07:38:54 
+### epoch : 143 ###
+07:40:09 (train) loss1 : 0.0390 loss2 : 0.0341
+07:40:09 (train) accuracy1 : 99.43% accuracy2 : 99.59% train time: 74.58s
+07:40:14 (eval) target accuracy: 99.71% eval time: 4.65s
+07:40:14 best accuracy: 99.84 % 
+07:40:14 
+### epoch : 144 ###
+07:41:30 (train) loss1 : 0.0262 loss2 : 0.0102
+07:41:30 (train) accuracy1 : 99.72% accuracy2 : 99.83% train time: 75.12s
+07:41:35 (eval) target accuracy: 99.75% eval time: 4.35s
+07:41:35 best accuracy: 99.84 % 
+07:41:35 
+### epoch : 145 ###
+07:42:49 (train) loss1 : 0.0161 loss2 : 0.0152
+07:42:49 (train) accuracy1 : 99.78% accuracy2 : 99.80% train time: 74.60s
+07:42:54 (eval) target accuracy: 99.80% eval time: 4.60s
+07:42:54 best accuracy: 99.84 % 
+07:42:54 
+### epoch : 146 ###
+07:44:08 (train) loss1 : 0.0229 loss2 : 0.0012
+07:44:08 (train) accuracy1 : 99.74% accuracy2 : 100.00% train time: 74.00s
+07:44:13 (eval) target accuracy: 99.80% eval time: 4.64s
+07:44:13 best accuracy: 99.84 % 
+07:44:13 
+### epoch : 147 ###
+07:45:28 (train) loss1 : 0.0365 loss2 : 0.0106
+07:45:28 (train) accuracy1 : 99.59% accuracy2 : 99.87% train time: 74.47s
+07:45:33 (eval) target accuracy: 99.55% eval time: 4.40s
+07:45:33 best accuracy: 99.84 % 
+07:45:33 
+### epoch : 148 ###
+07:46:47 (train) loss1 : 0.0226 loss2 : 0.0084
+07:46:47 (train) accuracy1 : 99.71% accuracy2 : 99.88% train time: 73.78s
+07:46:52 (eval) target accuracy: 99.67% eval time: 4.65s
+07:46:52 best accuracy: 99.84 % 
+07:46:52 
+### epoch : 149 ###
+07:48:06 (train) loss1 : 0.0412 loss2 : 0.0249
+07:48:06 (train) accuracy1 : 99.38% accuracy2 : 99.68% train time: 74.35s
+07:48:12 (eval) target accuracy: 98.98% eval time: 5.03s
+07:48:12 best accuracy: 99.84 % 
+07:48:12 
+### epoch : 150 ###
+07:49:25 (train) loss1 : 0.0426 loss2 : 0.0115
+07:49:25 (train) accuracy1 : 99.40% accuracy2 : 99.90% train time: 73.73s
+07:49:30 (eval) target accuracy: 99.51% eval time: 4.66s
+07:49:30 best accuracy: 99.84 % 
+07:49:30 
+### epoch : 151 ###
+07:50:43 (train) loss1 : 0.0162 loss2 : 0.0187
+07:50:43 (train) accuracy1 : 99.80% accuracy2 : 99.74% train time: 72.37s
+07:50:48 (eval) target accuracy: 99.43% eval time: 4.71s
+07:50:48 best accuracy: 99.84 % 
+07:50:48 
+### epoch : 152 ###
+07:52:02 (train) loss1 : 0.0037 loss2 : 0.0036
+07:52:02 (train) accuracy1 : 99.99% accuracy2 : 99.96% train time: 73.55s
+07:52:07 (eval) target accuracy: 99.67% eval time: 4.28s
+07:52:07 best accuracy: 99.84 % 
+07:52:07 
+### epoch : 153 ###
+07:53:22 (train) loss1 : 0.0479 loss2 : 0.0103
+07:53:22 (train) accuracy1 : 99.38% accuracy2 : 99.93% train time: 75.39s
+07:53:27 (eval) target accuracy: 99.75% eval time: 4.63s
+07:53:27 best accuracy: 99.84 % 
+07:53:27 
+### epoch : 154 ###
+07:54:41 (train) loss1 : 0.0076 loss2 : 0.0258
+07:54:41 (train) accuracy1 : 99.97% accuracy2 : 99.71% train time: 73.41s
+07:54:46 (eval) target accuracy: 99.71% eval time: 4.67s
+07:54:46 best accuracy: 99.84 % 
+07:54:46 
+### epoch : 155 ###
+07:55:59 (train) loss1 : 0.0181 loss2 : 0.0023
+07:55:59 (train) accuracy1 : 99.72% accuracy2 : 99.99% train time: 73.18s
+07:56:05 (eval) target accuracy: 98.61% eval time: 4.71s
+07:56:05 best accuracy: 99.84 % 
+07:56:05 
+### epoch : 156 ###
+07:57:18 (train) loss1 : 0.0288 loss2 : 0.0286
+07:57:18 (train) accuracy1 : 99.65% accuracy2 : 99.56% train time: 73.02s
+07:57:23 (eval) target accuracy: 99.71% eval time: 4.62s
+07:57:23 best accuracy: 99.84 % 
+07:57:23 
+### epoch : 157 ###
+07:58:36 (train) loss1 : 0.0267 loss2 : 0.0050
+07:58:36 (train) accuracy1 : 99.65% accuracy2 : 99.93% train time: 73.31s
+07:58:42 (eval) target accuracy: 99.47% eval time: 4.96s
+07:58:42 best accuracy: 99.84 % 
+07:58:42 
+### epoch : 158 ###
+07:59:55 (train) loss1 : 0.0435 loss2 : 0.0150
+07:59:55 (train) accuracy1 : 99.35% accuracy2 : 99.80% train time: 73.14s
+08:00:00 (eval) target accuracy: 99.80% eval time: 5.00s
+08:00:00 best accuracy: 99.84 % 
+08:00:00 
+### epoch : 159 ###
+08:01:13 (train) loss1 : 0.0335 loss2 : 0.0223
+08:01:13 (train) accuracy1 : 99.61% accuracy2 : 99.59% train time: 72.58s
+08:01:18 (eval) target accuracy: 99.71% eval time: 4.99s
+08:01:18 best accuracy: 99.84 % 
+08:01:18 
+### epoch : 160 ###
+08:02:33 (train) loss1 : 0.0273 loss2 : 0.0090
+08:02:33 (train) accuracy1 : 99.64% accuracy2 : 99.88% train time: 74.61s
+08:02:38 (eval) target accuracy: 99.47% eval time: 4.34s
+08:02:38 best accuracy: 99.84 % 
+08:02:38 
+### epoch : 161 ###
+08:03:51 (train) loss1 : 0.0454 loss2 : 0.0099
+08:03:51 (train) accuracy1 : 99.42% accuracy2 : 99.91% train time: 72.95s
+08:03:56 (eval) target accuracy: 99.67% eval time: 4.62s
+08:03:56 best accuracy: 99.84 % 
+08:03:56 
+### epoch : 162 ###
+08:05:10 (train) loss1 : 0.0309 loss2 : 0.0299
+08:05:10 (train) accuracy1 : 99.59% accuracy2 : 99.61% train time: 73.94s
+08:05:15 (eval) target accuracy: 99.55% eval time: 4.27s
+08:05:15 best accuracy: 99.84 % 
+08:05:15 
+### epoch : 163 ###
+08:06:28 (train) loss1 : 0.0146 loss2 : 0.0056
+08:06:28 (train) accuracy1 : 99.81% accuracy2 : 99.93% train time: 73.12s
+08:06:34 (eval) target accuracy: 99.63% eval time: 5.03s
+08:06:34 best accuracy: 99.84 % 
+08:06:34 
+### epoch : 164 ###
+08:07:47 (train) loss1 : 0.0149 loss2 : 0.0160
+08:07:47 (train) accuracy1 : 99.78% accuracy2 : 99.84% train time: 73.05s
+08:07:53 (eval) target accuracy: 99.75% eval time: 5.31s
+08:07:53 best accuracy: 99.84 % 
+08:07:53 
+### epoch : 165 ###
+08:09:05 (train) loss1 : 0.0126 loss2 : 0.0060
+08:09:05 (train) accuracy1 : 99.91% accuracy2 : 99.93% train time: 72.72s
+08:09:11 (eval) target accuracy: 99.67% eval time: 4.95s
+08:09:11 best accuracy: 99.84 % 
+08:09:11 
+### epoch : 166 ###
+08:10:24 (train) loss1 : 0.0290 loss2 : 0.0053
+08:10:24 (train) accuracy1 : 99.64% accuracy2 : 99.93% train time: 72.95s
+08:10:29 (eval) target accuracy: 99.39% eval time: 4.66s
+08:10:29 best accuracy: 99.84 % 
+08:10:29 
+### epoch : 167 ###
+08:11:42 (train) loss1 : 0.0237 loss2 : 0.0040
+08:11:42 (train) accuracy1 : 99.72% accuracy2 : 99.96% train time: 72.71s
+08:11:47 (eval) target accuracy: 99.71% eval time: 4.64s
+08:11:47 best accuracy: 99.84 % 
+08:11:47 
+### epoch : 168 ###
+08:13:02 (train) loss1 : 0.0330 loss2 : 0.0180
+08:13:02 (train) accuracy1 : 99.65% accuracy2 : 99.77% train time: 74.72s
+08:13:07 (eval) target accuracy: 99.59% eval time: 4.96s
+08:13:07 best accuracy: 99.84 % 
+08:13:07 
+### epoch : 169 ###
+08:14:20 (train) loss1 : 0.0548 loss2 : 0.0183
+08:14:20 (train) accuracy1 : 99.36% accuracy2 : 99.74% train time: 72.32s
+08:14:25 (eval) target accuracy: 99.51% eval time: 4.63s
+08:14:25 best accuracy: 99.84 % 
+08:14:25 
+### epoch : 170 ###
+08:15:39 (train) loss1 : 0.0408 loss2 : 0.0225
+08:15:39 (train) accuracy1 : 99.62% accuracy2 : 99.72% train time: 74.77s
+08:15:44 (eval) target accuracy: 97.91% eval time: 4.66s
+08:15:44 best accuracy: 99.84 % 
+08:15:45 
+### epoch : 171 ###
+08:16:58 (train) loss1 : 0.0155 loss2 : 0.0058
+08:16:58 (train) accuracy1 : 99.83% accuracy2 : 99.88% train time: 73.42s
+08:17:03 (eval) target accuracy: 99.75% eval time: 5.06s
+08:17:03 best accuracy: 99.84 % 
+08:17:03 
+### epoch : 172 ###
+08:18:16 (train) loss1 : 0.0355 loss2 : 0.0244
+08:18:16 (train) accuracy1 : 99.52% accuracy2 : 99.68% train time: 72.18s
+08:18:21 (eval) target accuracy: 98.04% eval time: 4.67s
+08:18:21 best accuracy: 99.84 % 
+08:18:21 
+### epoch : 173 ###
+08:19:34 (train) loss1 : 0.0318 loss2 : 0.0073
+08:19:34 (train) accuracy1 : 99.53% accuracy2 : 99.94% train time: 72.90s
+08:19:39 (eval) target accuracy: 99.71% eval time: 4.73s
+08:19:39 best accuracy: 99.84 % 
+08:19:39 
+### epoch : 174 ###
+08:20:51 (train) loss1 : 0.0410 loss2 : 0.0282
+08:20:51 (train) accuracy1 : 99.49% accuracy2 : 99.59% train time: 72.31s
+08:20:56 (eval) target accuracy: 99.59% eval time: 4.60s
+08:20:56 best accuracy: 99.84 % 
+08:20:56 
+### epoch : 175 ###
+08:22:10 (train) loss1 : 0.0273 loss2 : 0.0113
+08:22:10 (train) accuracy1 : 99.59% accuracy2 : 99.85% train time: 73.09s
+08:22:15 (eval) target accuracy: 99.63% eval time: 4.94s
+08:22:15 best accuracy: 99.84 % 
+08:22:15 
+### epoch : 176 ###
+08:23:28 (train) loss1 : 0.0168 loss2 : 0.0127
+08:23:28 (train) accuracy1 : 99.75% accuracy2 : 99.75% train time: 72.63s
+08:23:33 (eval) target accuracy: 99.80% eval time: 4.71s
+08:23:33 best accuracy: 99.84 % 
+08:23:33 
+### epoch : 177 ###
+08:24:47 (train) loss1 : 0.0253 loss2 : 0.0115
+08:24:47 (train) accuracy1 : 99.71% accuracy2 : 99.93% train time: 73.85s
+08:24:52 (eval) target accuracy: 99.71% eval time: 4.61s
+08:24:52 best accuracy: 99.84 % 
+08:24:52 
+### epoch : 178 ###
+08:26:06 (train) loss1 : 0.0276 loss2 : 0.0131
+08:26:06 (train) accuracy1 : 99.65% accuracy2 : 99.84% train time: 74.60s
+08:26:12 (eval) target accuracy: 99.39% eval time: 4.68s
+08:26:12 best accuracy: 99.84 % 
+08:26:12 
+### epoch : 179 ###
+08:27:26 (train) loss1 : 0.0199 loss2 : 0.0211
+08:27:26 (train) accuracy1 : 99.77% accuracy2 : 99.75% train time: 74.26s
+08:27:31 (eval) target accuracy: 99.75% eval time: 4.91s
+08:27:31 best accuracy: 99.84 % 
+08:27:31 
+### epoch : 180 ###
+08:28:45 (train) loss1 : 0.0032 loss2 : 0.0005
+08:28:45 (train) accuracy1 : 99.99% accuracy2 : 100.00% train time: 73.84s
+08:28:50 (eval) target accuracy: 99.75% eval time: 4.69s
+08:28:50 best accuracy: 99.84 % 
+08:28:50 
+### epoch : 181 ###
+08:30:03 (train) loss1 : 0.0054 loss2 : 0.0004
+08:30:03 (train) accuracy1 : 99.93% accuracy2 : 100.00% train time: 72.93s
+08:30:09 (eval) target accuracy: 99.10% eval time: 4.73s
+08:30:09 best accuracy: 99.84 % 
+08:30:09 
+### epoch : 182 ###
+08:31:22 (train) loss1 : 0.0315 loss2 : 0.0038
+08:31:22 (train) accuracy1 : 99.53% accuracy2 : 99.94% train time: 73.83s
+08:31:28 (eval) target accuracy: 99.80% eval time: 4.73s
+08:31:28 best accuracy: 99.84 % 
+08:31:28 
+### epoch : 183 ###
+08:32:41 (train) loss1 : 0.0020 loss2 : 0.0006
+08:32:41 (train) accuracy1 : 99.99% accuracy2 : 100.00% train time: 73.03s
+08:32:46 (eval) target accuracy: 99.80% eval time: 4.28s
+08:32:46 best accuracy: 99.84 % 
+08:32:46 
+### epoch : 184 ###
+08:33:59 (train) loss1 : 0.0216 loss2 : 0.0096
+08:33:59 (train) accuracy1 : 99.69% accuracy2 : 99.88% train time: 72.68s
+08:34:04 (eval) target accuracy: 99.47% eval time: 4.61s
+08:34:04 best accuracy: 99.84 % 
+08:34:04 
+### epoch : 185 ###
+08:35:19 (train) loss1 : 0.0273 loss2 : 0.0354
+08:35:19 (train) accuracy1 : 99.59% accuracy2 : 99.55% train time: 75.62s
+08:35:25 (eval) target accuracy: 98.73% eval time: 4.69s
+08:35:25 best accuracy: 99.84 % 
+08:35:25 
+### epoch : 186 ###
+08:36:37 (train) loss1 : 0.0367 loss2 : 0.0142
+08:36:37 (train) accuracy1 : 99.55% accuracy2 : 99.80% train time: 72.37s
+08:36:43 (eval) target accuracy: 99.71% eval time: 4.96s
+08:36:43 best accuracy: 99.84 % 
+08:36:43 
+### epoch : 187 ###
+08:37:55 (train) loss1 : 0.0074 loss2 : 0.0007
+08:37:55 (train) accuracy1 : 99.96% accuracy2 : 100.00% train time: 72.17s
+08:38:00 (eval) target accuracy: 99.75% eval time: 4.29s
+08:38:00 best accuracy: 99.84 % 
+08:38:00 
+### epoch : 188 ###
+08:39:13 (train) loss1 : 0.0501 loss2 : 0.0381
+08:39:13 (train) accuracy1 : 99.39% accuracy2 : 99.45% train time: 73.44s
+08:39:18 (eval) target accuracy: 99.47% eval time: 4.60s
+08:39:18 best accuracy: 99.84 % 
+08:39:18 
+### epoch : 189 ###
+08:40:31 (train) loss1 : 0.0440 loss2 : 0.0180
+08:40:31 (train) accuracy1 : 99.39% accuracy2 : 99.85% train time: 72.45s
+08:40:36 (eval) target accuracy: 99.63% eval time: 4.68s
+08:40:36 best accuracy: 99.84 % 
+08:40:36 
+### epoch : 190 ###
+08:41:50 (train) loss1 : 0.0286 loss2 : 0.0154
+08:41:50 (train) accuracy1 : 99.65% accuracy2 : 99.80% train time: 74.23s
+08:41:55 (eval) target accuracy: 99.55% eval time: 4.60s
+08:41:55 best accuracy: 99.84 % 
+08:41:55 
+### epoch : 191 ###
+08:43:09 (train) loss1 : 0.0240 loss2 : 0.0121
+08:43:09 (train) accuracy1 : 99.71% accuracy2 : 99.78% train time: 73.96s
+08:43:15 (eval) target accuracy: 99.35% eval time: 4.98s
+08:43:15 best accuracy: 99.84 % 
+08:43:15 
+### epoch : 192 ###
+08:44:28 (train) loss1 : 0.0349 loss2 : 0.0140
+08:44:28 (train) accuracy1 : 99.56% accuracy2 : 99.80% train time: 73.19s
+08:44:33 (eval) target accuracy: 99.59% eval time: 4.69s
+08:44:33 best accuracy: 99.84 % 
+08:44:33 
+### epoch : 193 ###
+08:45:47 (train) loss1 : 0.0397 loss2 : 0.0204
+08:45:47 (train) accuracy1 : 99.53% accuracy2 : 99.81% train time: 73.83s
+08:45:52 (eval) target accuracy: 99.67% eval time: 4.75s
+08:45:52 best accuracy: 99.84 % 
+08:45:52 
+### epoch : 194 ###
+08:47:06 (train) loss1 : 0.0054 loss2 : 0.0008
+08:47:06 (train) accuracy1 : 99.94% accuracy2 : 100.00% train time: 73.68s
+08:47:11 (eval) target accuracy: 99.80% eval time: 4.75s
+08:47:11 best accuracy: 99.84 % 
+08:47:11 
+### epoch : 195 ###
+08:48:25 (train) loss1 : 0.0045 loss2 : 0.0004
+08:48:25 (train) accuracy1 : 99.99% accuracy2 : 100.00% train time: 73.77s
+08:48:30 (eval) target accuracy: 99.75% eval time: 4.96s
+08:48:30 best accuracy: 99.84 % 
+08:48:30 
+### epoch : 196 ###
+08:49:43 (train) loss1 : 0.0015 loss2 : 0.0002
+08:49:43 (train) accuracy1 : 100.00% accuracy2 : 100.00% train time: 72.54s
+08:49:48 (eval) target accuracy: 99.75% eval time: 4.62s
+08:49:48 best accuracy: 99.84 % 
+08:49:48 
+### epoch : 197 ###
+08:51:01 (train) loss1 : 0.0026 loss2 : 0.0007
+08:51:01 (train) accuracy1 : 99.99% accuracy2 : 100.00% train time: 72.42s
+08:51:06 (eval) target accuracy: 99.67% eval time: 4.71s
+08:51:06 best accuracy: 99.84 % 
+08:51:06 
+### epoch : 198 ###
+08:52:20 (train) loss1 : 0.0241 loss2 : 0.0190
+08:52:20 (train) accuracy1 : 99.64% accuracy2 : 99.77% train time: 74.32s
+08:52:25 (eval) target accuracy: 99.10% eval time: 4.30s
+08:52:25 best accuracy: 99.84 % 
+08:52:25 
+### epoch : 199 ###
+08:53:38 (train) loss1 : 0.0138 loss2 : 0.0009
+08:53:38 (train) accuracy1 : 99.85% accuracy2 : 100.00% train time: 72.53s
+08:53:43 (eval) target accuracy: 99.51% eval time: 5.03s
+08:53:43 best accuracy: 99.84 % 
